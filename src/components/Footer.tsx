@@ -43,14 +43,7 @@ const Footer = () => (
               className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all"
             >
               <Facebook size={18} />
-            </a>
-
-            <a
-              href="https://twitter.com/yourusername"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all"
-            >
+              <Facebook className="cursor-default opacity-50" />
               <Twitter size={18} />
             </a>
           </div>
