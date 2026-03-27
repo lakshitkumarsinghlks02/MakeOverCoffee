@@ -35,15 +35,18 @@ const Footer = () => (
             >
               <Instagram size={18} />
             </a>
+            <div
+              className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all"
+            >
+              <Facebook size={18} />
+            </div>
 
             <a
-              href="https://facebook.com/yourusername"
+              href="https://twitter.com/yourusername"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all"
             >
-              <Facebook size={18} />
-              <Facebook className="cursor-default opacity-50" />
               <Twitter size={18} />
             </a>
           </div>
